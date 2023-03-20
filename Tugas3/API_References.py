@@ -55,7 +55,7 @@ else:
 
 
 st.subheader('6. Media Element')
-image = Image.open("./Tugas3/CintaSegitiga.PNG")
+image = Image.open("./Tugas3/CintaSegitiga.JPG")
 
 st.image(image, caption='Drinking Wine, Because you will never be mine')
 st.write(' ')
