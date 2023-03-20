@@ -14,4 +14,4 @@ df = load_data(st.secrets["public_gsheets_url"])
 
 # Print results.
 for row in df.itertuples():
-    st.write(f"{row.Makanan} has a :{row.Harga}:")
+    st.write(f"{row.Makanan} = RP. :{row.Harga}:")
